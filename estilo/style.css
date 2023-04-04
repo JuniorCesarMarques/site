@@ -96,6 +96,19 @@ main > h2 {
 
 }
 
+section > h3 {
+    font-size: 1.5em;
+    font-family: 'bebas';
+    font-weight: normal;
+    padding-right: 40px; /*Provisório!*/
+}
+
+.h3meio { /*Consertar isso!!*/
+    padding-right: 101px;
+
+}
+
+
 section.container {
     display: flex;
     align-items: center;
