@@ -100,12 +100,12 @@ section > h3 {
     font-size: 1.5em;
     font-family: 'bebas';
     font-weight: normal;
-    padding-right: 40px; /*Provisório!*/
 }
 
-.h3meio { /*Consertar isso!!*/
-    padding-right: 101px;
-
+h3 {
+    font-size: 1.5em;
+    font-family: 'bebas';
+    font-weight: normal;
 }
 
 
@@ -120,22 +120,36 @@ section.container img {
     margin-right: 20px;
 }
 
-@media screen and (max-width: 850px) {
-    .container {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .container img {
-        margin-bottom: 20px;
-    }
+.v1, .v2, .v3, .v4 {
+    width: 200px;
 }
 
-.vetor {
-    width: 200px;
+.v2 {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.v4 {
+    margin-left: 120px;
+    margin-right: 120px;
 }
 
 img {
     width: 350px;
+}
+
+@media screen and (max-width: 724px) {
+    section.container {
+        flex-direction: column;
+        align-items: center;
+    }
+    section.container img {
+        margin-bottom: 20px;
+    }
+    .v2, .v4 {
+        margin-left: 0px;
+        
+    }
 }
 
 
