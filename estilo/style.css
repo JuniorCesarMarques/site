@@ -30,6 +30,38 @@ body {
     background-color: #f58540;
 }
 
+article > h1 {
+    font-family: var(--font-titulos);
+    font-weight: normal;
+    font-size: 2.5em;
+    color: #0e0e0e;
+    margin-top: 20px;
+}
+
+article > p {
+    font-family: var(--font-normal);
+    line-height: 1.5;
+    text-indent: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+article > h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;   ;
+    font-weight: normal;
+    background-image: linear-gradient(to right, #fc6000, #f5f5f5);
+    border-radius: 2px;
+    padding: 5px;
+}
+
+img#sobre {
+    width: 400px;
+}
+
 @media (max-width: 400px) {
     header {
       background-image: url('../imagens/header-mobile-400-160.jpg');
@@ -101,26 +133,10 @@ section > h3 {
     font-weight: normal;
 }
 
-h3 {
-    font-size: 1.5em;
-    font-family: 'bebas';
-    font-weight: normal;
-}
-
-
-section.container1 {
+section.container {
     display: flex;
     align-items: center;
     padding-top: 20px;
-    justify-content: space-between;
-
-}
-
-section.container{
-    display: flex;
-    align-items: start;
-    padding-top: 20px;
-    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -132,23 +148,24 @@ img {
     width: 200px;
 }
 
-img.artigo {
-    width: 400px;
-}
-
               /*Mobile*/
 @media screen and (max-width: 724px) {
-    section.container1 {
+    section.container {
         flex-direction: column;
         align-items: center;
     
+    }
+
+    img#sobre {
+        display: block;
+        margin: auto;
     }
 
     section.item {
         width: 300px;
         height: 200px;
     }
-    section.container1 img {
+    section.container img {
         margin-bottom: 20px;
         width: 300px;
     }
@@ -162,14 +179,6 @@ img.artigo {
         width: 360px;
     }
 
-}
-
-section > p {
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.8em;
-    text-indent: 20pt;
-    margin: 0px;
-    text-align: justify;
 }
 
 footer {
