@@ -44,6 +44,7 @@ article > p {
     text-indent: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: justify;
 }
 
 article > h2 {
@@ -84,7 +85,7 @@ img#sobre {
 
 @media (max-width: 456px) {
     nav > a {
-        font-size: 0.7em;
+        font-size: 0.8em;
     }
 
     header {

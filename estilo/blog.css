@@ -33,7 +33,7 @@ body {
 
 @media (max-width: 456px) {
     nav > a {
-        font-size: 0.7em;
+        font-size: 0.8em;
     }
 
     header {
