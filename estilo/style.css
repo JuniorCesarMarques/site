@@ -132,6 +132,25 @@ main > h1 {
     
 }
 
+h1#obrigado {
+    font-family: var(--font-normal);
+    font-size: 2em;
+    margin-top: 150px;
+    text-align: center;
+    
+}
+
+main#mainObg {
+    height: 400px;
+}
+
+h1#txtcenter {
+    text-align: center;
+    font-family: var(--font-normal);
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
 div.linha { 
     margin-top: 10px;
     border-radius: 5px;
@@ -140,6 +159,62 @@ div.linha {
     background-color: #f58540;
 }
 
+form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 500px;
+    margin: auto;   
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    padding: 7px;
+}
+    
+    
+
+
+textarea {
+    padding: 30px;
+}
+
+
+label {
+    font-family: var(--font-normal);
+    padding: 20px 0px 20px 0px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none; /* Remove a borda quando o input está ativo */
+}
+
+label[for="tel"]::after,
+label[for="name"]::after {
+    content: "*";
+    color: red;
+}
+
+
+
+input[type="submit"] {
+    background-color: #f58540;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5px;
+    
+    
+}
+  
 main > h2 {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 20px;
